@@ -1,0 +1,112 @@
+@import "compass/css3";
+
+body {
+	color: black;
+	font-weight: 100;
+	padding: 0px;
+	margin: 0px;
+  	font-family: 'avenir next';
+
+  	&:hover {
+
+   span {
+      display: none; 
+    }
+    p{
+    	display:none;
+    }
+
+
+  }
+
+	}
+
+a:hover{
+    	background-color: white;
+    	color: black;
+    	text-decoration: underline, yellow, 10px;
+    }
+
+span {
+  position: absolute; 
+  top: 100px;
+  left: 100px;
+  color: #000;
+  display: block;
+  }
+
+
+
+
+.header1 {
+	position: absolute;
+	top: 30px;
+	left: 100px;
+	font-weight: 300;
+	font-size: 250px;
+	letter-spacing: 40px;
+	color: black;
+  }
+
+	
+
+.header2 {
+	position: absolute;
+	top: 400px;
+	left: 100px;
+	font-weight: 100;
+	font-size: 50px;
+	color: black;
+	
+	}
+
+
+.header4 {
+	position: absolute;
+	top: 200px;
+	left: 150px;
+	font-weight: 100;
+	font-size: 80px;
+	color: white;
+	
+	}	
+
+
+.headerles {
+	position: fixed;
+	top: 50px;
+	left: 100px;
+	font-weight: 100;
+	font-size: 80px;
+	color: white;
+	
+	}	
+
+.homepage-intro{
+	color: black;
+}	
+
+.locationname{
+	position: absolute;
+	display: inline-block;
+	color: white;
+	font-size: 60px;
+	left: 150px;
+	top: 400px;
+	right: 60px;
+
+}
+
+
+.locationrow {
+	display: inline-block;
+	clear: both;
+	color: white;
+}	
+
+.galleryitem{
+	color: white;
+}
+
+
+
