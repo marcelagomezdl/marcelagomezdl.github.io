@@ -79,7 +79,7 @@ span {
     width: 100%;
     padding-top: 100px;
     padding-bottom: 60px;
-    font-weight: 100;
+    font-weight: bold;
     font-size: 80px;
     color: black;
 }
@@ -119,10 +119,9 @@ span {
 }
 
 .galleryitem {
-
     color: black;
     border: .5px black solid;
-    /*padding: 200px;*/
+    padding: 0;
     text-align: center;
     font-family: avenir next;
     text-decoration: none;
@@ -133,8 +132,7 @@ span {
 	padding: 200px 0;
 	display: block;
 	color: black;
-	font-size: 18px;
-	background-color: transparent;
+	font-size: 15px;
 }
 
 
@@ -153,13 +151,8 @@ span {
 .active {
     background-color: black;
     color: white;
-
-	/*a:hover {
-	    background-color: black;
-	    color: white;
-	    font-weight: bold;
-	}    */
 }
+
 .active a {
     color: white;
     font-weight: bold;
