@@ -85,13 +85,13 @@ span {
 }
 
 .subheader {
-    display: block;
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 100px;
+    margin-top: 20px;
+    margin-bottom: 100px;
     font-weight: 100;
     font-size: 25px;
     color: black;
+    background-color: transparent;
+    width: auto;
 }
 
 
@@ -155,7 +155,7 @@ span {
 
 .active a {
     color: white;
-    font-weight: bold;
+   
 }
 
 
