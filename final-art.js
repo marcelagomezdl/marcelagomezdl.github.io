@@ -1,3 +1,16 @@
+
+
+$(".galleryitem").on({
+    mouseenter: function () {
+        $(this).addClass('active');
+    },
+    mouseleave: function () {
+        $(this).removeClass('active');
+    }
+});
+
+
+
 // Oil Painting
 // Ported from flash project - http://wonderfl.net/c/92Ul
 //
