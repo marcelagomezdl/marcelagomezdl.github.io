@@ -151,7 +151,8 @@ span {
 }
 
 .active {
-    background-color: grey;
+    background-color: black;
+    color: white;
 
 	/*a:hover {
 	    background-color: black;
