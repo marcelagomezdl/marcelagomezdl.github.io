@@ -120,7 +120,7 @@ span {
 
 .galleryitem {
     color: black;
-    border: .5px black solid;
+    border: .5px grey solid;
     padding: 0;
     text-align: center;
     font-family: avenir next;
@@ -128,12 +128,34 @@ span {
 
 }
 
+.uesgalleryitem {
+    color: black;
+    border: .5px grey solid;
+    padding: 0;
+    text-align: center;
+    font-family: avenir next;
+    text-decoration: none;
+
+}
+
+
+.uesgalleryitem a {
+	padding: 200px 0;
+	display: block;
+	color: white;
+	font-size: 15px;
+	background-color: black;
+}
+
 .galleryitem a {
 	padding: 200px 0;
 	display: block;
-	color: black;
+	color: white;
 	font-size: 15px;
+	background-color: black;
 }
+
+
 
 
 
@@ -149,13 +171,24 @@ span {
 }
 
 .active {
-    background-image: url(https://images.unsplash.com/photo-1541661538396-53ba2d051eed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80);
     color: white;
 }
 
+/*
+.active img {
+    max-width: 200px;
+    max-height: 200px;
+}*/
+
 .active a {
     color: white;
-    background-image: url(https://images.unsplash.com/photo-1541661538396-53ba2d051eed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80);
+    background-image: url(https://i.pinimg.com/236x/f2/50/40/f2504063b9e413681be3e8dd035409e8--yaoi-kusama-pumpkins.jpg);
+   
+}
+
+.uesactive a {
+    color: white;
+    background-image: url(https://whitney.org/uploads/image/file/375675/large_kusama_i_want_to_live_honestly2009.jpg);
    
 }
 

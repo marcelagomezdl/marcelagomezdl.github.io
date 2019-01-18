@@ -10,7 +10,14 @@ $(".galleryitem").on({
     }
 });
 
-
+$(".uesgalleryitem").on({
+    mouseenter: function () {
+        $(this).addClass('uesactive');
+    },
+    mouseleave: function () {
+        $(this).removeClass('uesactive');
+    }
+});
 
 
 
