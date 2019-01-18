@@ -27,6 +27,12 @@ body {
     color: white;
 }
 
+.indexlocation a {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
 
 span {
     position: absolute;
