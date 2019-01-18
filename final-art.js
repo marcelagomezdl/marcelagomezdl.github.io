@@ -1,4 +1,5 @@
 
+//gallery name tiles
 
 $(".galleryitem").on({
     mouseenter: function () {
@@ -8,6 +9,11 @@ $(".galleryitem").on({
         $(this).removeClass('active');
     }
 });
+
+
+
+
+
 
 
 
